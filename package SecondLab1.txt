@@ -1,0 +1,15 @@
+package SecondLab;
+//write a program to calculate simple interest.
+
+public class SimpleInterest {
+	public static void main(String[] args) {
+		double principle =10000;
+		double rateOfInterest = 10;
+		double time =5;
+		double SimpleInterest = (principle*(rateOfInterest)*time)/100;
+		System.out.println(SimpleInterest);
+
+	}
+
+}
+	
